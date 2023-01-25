@@ -22,5 +22,15 @@ def join_string(string_1, string_2):
 def add_string_as_number(string_1, string_2):
     return int(string_1) + int(string_2)
 
-# This next section I had difficulties with
+def number_to_full_month_name(month):
+    if month == 1:
+        return "January"
+    elif month == 3:
+        return "March"
+    elif month == 9:
+        return "September"
+    
+
+
+
     
