@@ -42,6 +42,12 @@ def number_to_short_month_name(month_name):
 
 #I know these last two functions pass but I am sure there is a better way to write them!
 
-
+def cube():
+    return 2 * 2 * 2
 
     
+def reverse_string():
+    return reversed()
+
+def fahrenheit_to_celsius(value):
+    return value * 5/9
